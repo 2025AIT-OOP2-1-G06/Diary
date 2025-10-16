@@ -1,7 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
-from diaries.arataDiary import AbstractDiary
 
-class DiarySample(AbstractDiary):
+class arataDiary(AbstractDiary):
 	def get_date(self):
 		return "2021-12-02"
 	def get_summary(self):
