@@ -1,12 +1,14 @@
 from diaries.DiarySample import DiarySample
 from diaries.ganbaruruDiary import ganbaruruDiary
 from diaries.WapponDiary import WapponDiary
+from diaries.JinmaDiary import JinmaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
 	DiarySample(), 
 	ganbaruruDiary(),
-	WapponDiary()
+	WapponDiary(),
+    JinmaDiary(),
 ]
 
 for d in diaries:
